@@ -24,7 +24,8 @@ def main():
     with open('books/genesis.txt', 'r') as f:
         text = f.read()
     # print(text)
-    print(count_words(text))
+    print(f"The book of Genesis in English has {count_words(text)} words in it...")
+    time.sleep(.5)
     count_characters(text)
 
 main()
